@@ -1,0 +1,46 @@
+{
+  "name": "test_ReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nozbe/watermelondb": "^0.23.0",
+    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/netinfo": "^6.0.2",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "axios": "^0.21.4",
+    "date-fns": "^2.23.0",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-decorators": "^7.15.4",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.20",
+    "@types/react-native": "^0.65.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.1.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.1.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
