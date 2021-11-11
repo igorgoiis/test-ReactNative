@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable no-undef */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useCallback, useEffect, useState } from 'react';
@@ -19,9 +20,7 @@ const ChangeStatus = () => {
   const { serviceActivated, changeServiceStatus, intervalSelected } =
     useAppContext();
   const { networkActivated, savePointDatabase } = useGeolocationContext();
-  const [trackingInterval, setTrackingInterval] = useState<
-    number | null 
-  >(intervalSelected);
+  const [trackingInterval, setTrackingInterval] = useState<number | null>(intervalSelected);
 
   useEffect(() => {
     stopGetPosition();

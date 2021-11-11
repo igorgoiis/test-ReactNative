@@ -134,7 +134,7 @@ export const GeolocationProvider: React.FC = ({ children }) => {
         newPoint.createdAt = point.createdAt;
       });
       const date = res._raw as unknown as Point;
-      setPoints((oldState) => [date, ...oldState]);
+      setPoints(oldState => [date, ...oldState]);
     });
   }, []);
 
